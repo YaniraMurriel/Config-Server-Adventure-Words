@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: adventureworks-configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/YaniraMurriel/Config-Server-Adventure-Words.git
+          default-label: main
+
